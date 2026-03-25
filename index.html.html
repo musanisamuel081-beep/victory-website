@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Victory Church</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: #0d1b5e;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* SECTION */
+.section {
+    background: rgba(255,255,255,0.9);
+    color: black;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* BUTTON */
+.btn {
+    background: gold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* GALLERY */
+.home-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+}
+
+.home-gallery img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.home-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    background: #0d1b5e;
+    text-align: center;
+    padding: 15px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Victory Church of Christ Ministries International</h2>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="sermons.html">Sermons</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<!-- WELCOME -->
+<div class="section">
+<h2>Welcome</h2>
+<p>Victory Church of Christ Ministries International - Kapchorwa</p>
+<button class="btn">Join Us Sunday 9AM</button>
+</div>
+
+<!-- ABOUT -->
+<div class="section">
+<h2>About Us</h2>
+<p>We are a Bible-believing church dedicated to preaching the Word of God and transforming lives through Christ.</p>
+</div>
+
+<!-- GALLERY -->
+<div class="section">
+<h2>Church Moments</h2>
+
+<div class="home-gallery">
+<img src="g1.jpg">
+<img src="g2.jpg">
+<img src="g3.jpg">
+<img src="g4.jpg">
+<div class="section">
+<h2>Visit Us</h2>
+<p>Victory Church of Christ Ministries International - Kapchorwa</p>
+
+<iframe 
+width="100%" 
+height="300"
+style="border-radius:10px;"
+src="https://maps.google.com/maps?q=Kapchorwa Uganda&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</div>
+</div>
+
+</div>
+<div class="section">
+<h2>Connect With Us</h2>
+
+<div class=".socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+socials {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.socials a {
+    background: white;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    transform: translateY(-5px);
+}
+
+.socials img {
+    width: 35px;
+    height: 35px;
+}
+<div class="socials">
+<a href="https://facebook.com/yourchurch"><img src="facebook.png"></a>
+<a href="https://wa.me/256700000000"><img src="whatsapp.png"></a>
+<a href="https://youtube.com/yourchannel"><img src="youtube.png"></a>
+<a href="https://tiktok.com/@yourchurch"><img src="tiktok.png"></a>
+<a href="https://instagram.com/yourchurch"><img src="instagram.png"></a>
+</div>
+
+</div>
+<footer>
+<p>© 2026 Victory Church</p>
+</footer>
+
+</body>
+</html>
